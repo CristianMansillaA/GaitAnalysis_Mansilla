@@ -1,0 +1,19 @@
+# EMG Interactive Viewer with TKEO
+
+## Requirements
+- Python ≥ 3.9
+- numpy
+- pandas
+- scipy
+- matplotlib
+
+## Usage
+1. Place EMG text files in `data/`
+2. Edit `FILE_NAME`
+3. Run:
+   python emg_viewer.py
+
+## Controls
+- Right click: onset
+- Left click: offset
+- ← / → arrows: move time window
